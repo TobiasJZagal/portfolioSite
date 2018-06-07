@@ -1,0 +1,549 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+img {
+
+    width: 100%;
+
+}
+
+body
+{
+    background-color: rgba(255,177,148,0.8);
+
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+h1
+{
+    font-size: 40px;
+    font-family: 'Kavivanar', cursive;
+    color: rgba(44,54,69,1);
+    text-align: center;
+}
+
+h4
+{
+    color: rgba(44,54,69,1);
+
+}
+
+h2
+{
+    color: rgba(44,54,69,1);
+
+}
+
+h3
+{
+    color: rgba(44,54,69,1);
+
+}
+
+p
+{
+    color: rgba(44,54,69,1);
+
+}
+
+a
+{
+    color: rgba(44,54,69,1);
+
+
+}
+
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.column {
+    flex-basis: 400px;
+    flex-grow: 1;
+    justify-content: space-between;
+
+}
+
+.column_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+
+#typografi .column_wide{
+   flex-basis: 400px;
+    flex-grow: 3;
+
+
+}
+
+#typografi .column_narrow{
+    flex-basis: 400px;
+
+    flex-grow: 1;
+}
+
+
+
+
+
+#typografi .bottom {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+
+#typografi .top {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+#typografi .bottom {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+
+
+
+.txt {
+    flex-grow: 1;
+    flex-basis: 200px;
+
+
+}
+
+.image{
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.top {
+   flex-basis: 200px;
+    flex-grow: 1;
+
+
+}
+
+.bottom {
+
+
+    flex-basis: 200px;
+
+}
+
+
+#komposition_farver .column_wide{
+   flex-basis: 400px;
+    flex-grow: 2;
+
+
+}
+
+#komposition_farver .column_narrow{
+    flex-basis: 400px;
+
+    flex-grow: 1;
+}
+
+#komposition_farver .column_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.content {
+    flex-grow: 10;
+    flex-basis: 200px;
+
+}
+#komposition_farver .content {
+    flex-grow: 10;
+    flex-basis: 200px;
+
+}
+
+.colorlist {
+
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+
+.colors img {
+
+
+}
+
+.color1 {
+
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.color2 {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.color3 {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.color4 {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.color5 {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+
+
+
+#styletile h1 {
+
+    font-family: 'Great Vibes', cursive;
+
+}
+
+#styletile h2 {
+
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+#styletile h3 {
+
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#styletile p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+
+.colors{
+
+
+
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+
+
+
+}
+
+.color {
+
+
+     display: inline-block;
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+    line-height: 15vw;
+
+
+
+
+}
+
+#splashbilleder {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+#links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+
+
+#colornr1 {
+
+    background-color: #f80682;
+
+}
+
+
+#colornr2 {
+
+    background-color: #c04685;
+
+}
+
+
+#colornr3 {
+
+    background-color: #f2d752;
+
+}
+
+#colornr4 {
+
+    background-color: #f1a3a0;
+
+}
+
+
+#colornr5 {
+
+    background-color: #272528;
+
+}
+
+
+
+
+
+/* eksempler                     */
+
+
+
+
+#eksempler .column {
+
+    margin: 1em;
+    padding: 2em;
+    background-color: #282629;
+    flex-basis: 290px;
+
+
+}
+
+
+
+#eksempler h2 {
+
+    color: #f80682;
+
+}
+
+#eksempler h3 {
+
+    color: #f80682;
+
+}
+
+
+#eksempler p {
+
+    color: white;
+
+}
+
+#eksempler img {
+
+    max-width: 600px;
+
+}
+
+#om .sectionwrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#om .column{
+
+    margin: 1em;
+    padding: 2em;
+    background-color: #282629;
+    flex-basis: 90px;
+    max-width: 1000px;
+}
+
+#om p {
+    color: white;
+}
+
+#om h3 {
+    color: #f80682;
+}
+
+#om h4 {
+    color: #f80682;
+}
+
+
+#typografi .column_wide {
+
+    padding: 1em;
+
+}
+
+#typografi .column_narrow {
+    margin-top: 1em;
+    padding: 2em;
+    background-color: #282629;
+    margin-bottom: 1em;
+
+}
+
+#typografi .top {
+
+    background-color: #282629;
+}
+
+#typografi .bottom {
+    margin-top: 2em;
+    background-color: #282629;
+}
+
+
+#typografi .txt {
+
+    padding:2em;
+}
+
+#typografi .image {
+
+    padding: 2em;
+}
+
+#typografi h3{
+    color: #f80682;
+}
+
+#typografi p{
+    color: white;
+}
+
+
+#typografi h1 {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 751px)  {
+
+
+    #eksempler .column{
+
+
+        padding-left: 2em;
+    }
+
+    #eksempler .column{
+
+    padding: 2em;
+    }
+
+
+}
+
+@media only screen and (min-width: 729px) {
+    #eksempler .column{
+        flex-basis: 400px;
+    }
+}
+
+@media only screen and (min-width: 930px) {
+    #eksempler .column{
+        flex-basis: 300px;
+    }
+}
+
+
+
+@media only screen and (max-width: 930px) {
+    #eksempler .column{
+        flex-basis: 400px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    #om .column{
+        flex-basis: 500px;
+    }
+    #om .sectionwrapper{
+        background-color: #282629;
+    }
+}
+
+@media only screen and (max-width: 832px) {
+   #typografi .column_narrow {
+
+    margin: 1em;
+    padding: 2em;
+    background-color: #282629;
+    margin-bottom: 1em;
+
+}
+}
+@media only screen and (max-width: 1325px) {
+    #typografi .image{
+
+        flex-basis: 625px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 833px) {
+
+     #typografi .image{
+       flex-basis: 200px;
+
+    }
+}
+@media only screen and (max-width: 717px) {
+
+     #typografi .image{
+       flex-basis: 500px;
+
+    }
+}
+
+
+
+
+
