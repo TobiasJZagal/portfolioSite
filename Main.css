@@ -1,549 +1,690 @@
-html {
-    box-sizing: border-box;
+body{
+   transition: 1s;
+    margin: auto;
 }
 
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+.color1{
+     animation-name: color2_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
 }
 
-
-img {
-
-    width: 100%;
-
-}
-
-body
-{
-    background-color: rgba(255,177,148,0.8);
-
-    font-family: 'Mukta Mahee', sans-serif;
-}
-
-h1
-{
-    font-size: 40px;
-    font-family: 'Kavivanar', cursive;
-    color: rgba(44,54,69,1);
-    text-align: center;
-}
-
-h4
-{
-    color: rgba(44,54,69,1);
-
-}
-
-h2
-{
-    color: rgba(44,54,69,1);
-
-}
-
-h3
-{
-    color: rgba(44,54,69,1);
-
-}
-
-p
-{
-    color: rgba(44,54,69,1);
-
-}
-
-a
-{
-    color: rgba(44,54,69,1);
-
-
-}
-
-
-.sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-
-.column {
-    flex-basis: 400px;
-    flex-grow: 1;
-    justify-content: space-between;
-
-}
-
-.column_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+.color4{
+    background-color: white;
 }
 
 
 
-#typografi .column_wide{
-   flex-basis: 400px;
-    flex-grow: 3;
-
-
+.color2{
+    animation-name: color_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
 }
 
-#typografi .column_narrow{
-    flex-basis: 400px;
 
-    flex-grow: 1;
+
+.color3{
+     background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 
 
 
 
-#typografi .bottom {
+#frontpage{
 
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
+    height: 55vw;
 
+    position: relative;
+
+    overflow: hidden;
+    transition: 1s;
 }
 
-#typografi .top {
-    display: flex;
-    flex-wrap: wrap;
+#frontpagebox{
 
+    border-radius: 7px;
+    margin: 2em;
 
-
-
-}
-
-#typografi .bottom {
-
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
+    height: 50vw;
+    background-color: #fdfdfd;
 
 }
 
 
-
-.txt {
-    flex-grow: 1;
-    flex-basis: 200px;
-
+.boxshadow{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 1px 40px 0 rgba(0, 0, 0, 0.19);
 
 }
 
-.image{
-    flex-basis: 200px;
-    flex-grow: 1;
+.frontstyle{
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: sans-serif;
+    left: 13%;
+    top: 12%;
+    position: absolute;
+    transition: 1s;
 }
 
-.top {
-   flex-basis: 200px;
-    flex-grow: 1;
-
-
-}
-
-.bottom {
-
-
-    flex-basis: 200px;
-
-}
-
-
-#komposition_farver .column_wide{
-   flex-basis: 400px;
-    flex-grow: 2;
-
-
-}
-
-#komposition_farver .column_narrow{
-    flex-basis: 400px;
-
-    flex-grow: 1;
-}
-
-#komposition_farver .column_content {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100%;
-}
-
-
-.content {
-    flex-grow: 10;
-    flex-basis: 200px;
-
-}
-#komposition_farver .content {
-    flex-grow: 10;
-    flex-basis: 200px;
-
-}
-
-.colorlist {
-
-    flex-basis: 200px;
-    flex-grow: 1;
-
-}
-
-.colors img {
-
-
-}
-
-.color1 {
-
-    flex-basis: 200px;
-    flex-grow: 1;
-}
-
-.color2 {
-    flex-grow: 1;
-    flex-basis: 200px;
-}
-
-.color3 {
-    flex-grow: 1;
-    flex-basis: 200px;
-}
-
-.color4 {
-    flex-grow: 1;
-    flex-basis: 200px;
-}
-
-.color5 {
-    flex-grow: 1;
-    flex-basis: 200px;
+.frontText {
+    font-size: 2em;
+    font-family: sans-serif;
+    width: 30vw;
+    height: 40vw;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    transition: 1s;
+    z-index: 3;
 }
 
 
 
-
-#styletile h1 {
-
-    font-family: 'Great Vibes', cursive;
-
-}
-
-#styletile h2 {
-
-    font-size: 30px;
-    font-family: 'Great Vibes', cursive;
-
-}
-
-#styletile h3 {
-
-    font-family: 'Roboto Mono', monospace;
-
-}
-
-#styletile p {
-    font-family: 'Roboto Mono', monospace;
+.frontImg img {
+    border-radius: 1500px;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    transition: 1s;
 }
 
 
 
+#Om {
+    margin: 1.9em;
+     border-radius: 16px;
+    background-color: #ffffff;
 
 
-.colors{
-
-
-
-
-
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    width: 100%;
-
-
+   height: 70vw;
 
 }
 
-.color {
-
-
-     display: inline-block;
-    width: 15vw;
-    height: 15vw;
-    text-align: center;
-    line-height: 15vw;
-
-
-
-
-}
-
-#splashbilleder {
-    display: flex;
-    flex-wrap: wrap;
-
-
-}
-
-#links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: column;
-
-
-}
-
-
-#colornr1 {
-
-    background-color: #f80682;
-
-}
-
-
-#colornr2 {
-
-    background-color: #c04685;
-
-}
-
-
-#colornr3 {
-
-    background-color: #f2d752;
-
-}
-
-#colornr4 {
-
-    background-color: #f1a3a0;
-
-}
-
-
-#colornr5 {
-
-    background-color: #272528;
-
-}
-
-
-
-
-
-/* eksempler                     */
-
-
-
-
-#eksempler .column {
-
-    margin: 1em;
-    padding: 2em;
-    background-color: #282629;
-    flex-basis: 290px;
-
-
-}
-
-
-
-#eksempler h2 {
-
-    color: #f80682;
-
-}
-
-#eksempler h3 {
-
-    color: #f80682;
-
-}
-
-
-#eksempler p {
-
-    color: white;
-
-}
-
-#eksempler img {
-
-    max-width: 600px;
-
-}
-
-#om .sectionwrapper{
-    display: flex;
-    justify-content: center;
-}
-
-#om .column{
-
-    margin: 1em;
-    padding: 2em;
-    background-color: #282629;
-    flex-basis: 90px;
-    max-width: 1000px;
-}
-
-#om p {
-    color: white;
-}
-
-#om h3 {
-    color: #f80682;
-}
-
-#om h4 {
-    color: #f80682;
-}
-
-
-#typografi .column_wide {
-
-    padding: 1em;
-
-}
-
-#typografi .column_narrow {
+#Indhold {
+    margin: 1.9em;
     margin-top: 1em;
-    padding: 2em;
-    background-color: #282629;
-    margin-bottom: 1em;
+     border-radius: 16px;
+    background-color: #ffffff;
+
+
+
 
 }
 
-#typografi .top {
+#IndholdWrapper{
 
-    background-color: #282629;
+    position: relative;
+
+    overflow: hidden;
+    transition: 1s;
+
 }
 
-#typografi .bottom {
+
+#OmWrapper{
+
+    transition: 1s;
+
+}
+
+
+#OmIntro{
+    font-size: 3.5em;
+    font-family: sans-serif;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+
+    transition: 1s;
+    z-index: 3;
+
+}
+
+#OmText{
+    font-size: 1.4em;
+    font-family: sans-serif;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+
+    transition: 1s;
+    z-index: 3;
+
+}
+
+#OmGallery{
+    font-size: 1em;
+    font-family: sans-serif;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+
+    transition: 1s;
+    z-index: 2;
+
+}
+
+
+
+
+/* section1 */
+
+.OmIntroPos1{
+   animation-name: OmIntroReturn_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+.OmTextPos1{
+    animation-name: OmTextReturn_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+.OmGalleryPos1{
+    animation-name: OmGalleryreturn_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+/* section2 */
+
+.OmGalleryPos2{
+
+    animation-name: OmGalleryPos_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+.OmIntroPos2{
+   animation-name: OmIntroPos_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+.OmTextPos2{
+    animation-name: OmTextPos_kf ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    transition: 1s;
+}
+
+
+
+
+#OmWrapper{
+
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+    padding-left: 22em;
+
+
+}
+
+body{
+    background-color: white;
+}
+
+.hiddenC2{
+    transition: 1s;
     margin-top: 2em;
-    background-color: #282629;
+    position: absolute;
+    background-color: white;
+
+
+
 }
 
 
-#typografi .txt {
-
-    padding:2em;
-}
-
-#typografi .image {
-
-    padding: 2em;
-}
-
-#typografi h3{
-    color: #f80682;
-}
-
-#typografi p{
-    color: white;
-}
-
-
-#typografi h1 {
+#HOm {
+    font-size: 1.8em;
     text-align: center;
 }
 
+#POm{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding-left: 6.5em;
+  text-align: left;
+    width: 20em;
 
-@media only screen and (max-width: 1000px) and (min-width: 751px)  {
+}
+
+#ImgOm img{
+    text-align: left;
+
+    width: 30em;
+    height: 30em;
+}
+
+.GalleryOm1{
+    background-image: url(profilepic.jpg);
+    background-position:-5px;
+    background-size: 21.4em;
+}
+
+.GalleryOm2{
+    background-image: url(17884452_1466383883383017_2124854434259354637_n.jpg);
+    background-position:-5px;
+    background-size: 21.4em;
+}
 
 
-    #eksempler .column{
+#Responsive{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.left{
+    width: 35vw;
+    padding-left: 3em;
+
+    font-size: 1.5em;
+    font-family: sans-serif;
 
 
-        padding-left: 2em;
+    transition: 1s;
+    z-index: 3;
+}
+
+.right{
+    width: 35vw;
+    padding-left: 40em;
+    left: 73%;
+    font-size: 1.5em;
+    font-family: sans-serif;
+
+    transition: 1s;
+    z-index: 3;
+}
+
+
+.IPos1{
+    top: 0%;
+}
+
+.IPos2{
+    top: 15%;
+}
+
+.IPos3{
+    top: 30%;
+}
+
+
+.IPos4{
+    top: 45%;
+}
+
+
+.IPos5{
+    top: 60%;
+}
+
+
+.IPos6{
+    top: 75%;
+}
+
+
+.left img {
+   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 1px 40px 0 rgba(0, 0, 0, 0.19);
+
+    height: 35vw;
+
+    transition: 1s;
+}
+
+
+.left a{
+    font-size: 1.4em;
+}
+
+.lineup{
+    width: 35vw;
+    text-align: right;
+}
+
+
+
+
+@keyframes OmGalleryPos_kf
+{
+     0% {
+        left: 30%;
+        top: 55%;
+    }
+    70%{
+        left: 23%;
+    top: 63%;
     }
 
-    #eksempler .column{
-
-    padding: 2em;
+    80% {
+        left: 25%;
+    top: 60%;
     }
+    100% {
+        left: 25%;
+    top: 60%;
+    }
+
+}
+
+@keyframes OmIntroPos_kf
+{
+     0% {
+        left: 35%;
+    top: 30%;
+    }
+    70%{
+        left: 22%;
+    top: 17%;
+    }
+
+    80% {
+        left: 25%;
+    top: 20%;
+    }
+    100% {
+        left: 25%;
+    top: 20%;
+    }
+
+}
+
+
+@keyframes OmIntroReturn_kf
+{
+     0% {
+
+         left: 25%;
+    top: 20%;
+
+
+    }
+
+    100% {
+        left: 35%;
+    top: 30%;
+    }
+
+}
+
+
+@keyframes OmGalleryreturn_kf
+{
+     0% {
+         left: 25%;
+    top: 60%;
+
+    }
+    100% {
+      left: 30%;
+        top: 55%;
+    }
+
+}
+
+@keyframes color_kf
+{
+     0% {
+
+      background-color: #ffffff;
+    }
+
+    100% {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+}
+
+@keyframes color2_kf
+{
+     0% {
+         background-color: rgba(255, 255, 255, 0);
+
+    }
+
+    100% {
+        background-color: #ffffff;
+
+    }
+
+}
+
+
+@keyframes OmTextPos_kf
+{
+     0% {
+       left: 50%;
+    top: 48%;
+    }
+    70%{
+        left: 65%;
+    top: 42%;
+    }
+
+    80% {
+        left: 62%;
+    top: 45%;
+    }
+    100% {
+        left: 62%;
+    top: 45%;
+    }
+
+}
+
+
+@keyframes OmTextReturn_kf
+{
+     0% {
+         left: 62%;
+    top: 45%;
+
+
+    }
+
+    100% {
+        left: 50%;
+    top: 48%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1550px) {
+    .right{
+
+        width: 40vw;
+        padding-left: 32em;
+    }
+    .left{
+
+        width: 40vw;
+        padding-left: 3em;
+    }
+     .left img{
+
+        height: 40vw;
+    }
+    .lineup{
+    width: 40vw;
+    text-align: right;
+}
+}
+
+
+@media only screen and (max-width: 1450px) {
+    .right{
+
+        width: 40vw;
+        padding-left: 25em;
+    }
+    .left{
+
+        width: 40vw;
+        padding-left: 3em;
+    }
+     .left img{
+
+        height: 40vw;
+    }
+    .lineup{
+    width: 40vw;
+    text-align: right;
+}
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .right{
+
+        width: 40vw;
+        padding-left: 5em;
+    }
+    .left{
+
+        width: 60vw;
+        padding-left: 5em;
+    }
+     .left img{
+
+        height: 60vw;
+    }
+    .lineup{
+    width: 60vw;
+    text-align: right;
+}
+    .frontImg img {
+    margin-top: 2em;
+    margin-left: 2em;
+    border-radius: 150px;
+    width: 30vw;
+    height: 30vw;
+
+
+    transition: 1s;
+}
+    .frontText {
+    font-size: 2em;
+    font-family: sans-serif;
+    width: 30vw;
+    height: 40vw;
+
+
+    transition: 1s;
+    z-index: 3;
+}
+
+    #frontpagebox{
+    padding-left: 5em;
+    border-radius: 7px;
+    margin: 2em;
+    display: flex;
+        flex-wrap: wrap;
+    flex-direction: column;
+    height: 50vw;
+    background-color: #fdfdfd;
+
+}
+    #OmWradpper{
+     font-size: 1.2em;
+    font-family: sans-serif;
+  flex-direction: column;
+    padding-left: 0;
+    width: 50vw;
 
 
 }
 
-@media only screen and (min-width: 729px) {
-    #eksempler .column{
-        flex-basis: 400px;
-    }
-}
-
-@media only screen and (min-width: 930px) {
-    #eksempler .column{
-        flex-basis: 300px;
-    }
-}
+    #Odm {
+    margin: 1.9em;
+     border-radius: 16px;
+    background-color: #ffffff;
 
 
 
-@media only screen and (max-width: 930px) {
-    #eksempler .column{
-        flex-basis: 400px;
-    }
-}
-
-@media only screen and (max-width: 930px) {
-    #om .column{
-        flex-basis: 500px;
-    }
-    #om .sectionwrapper{
-        background-color: #282629;
-    }
-}
-
-@media only screen and (max-width: 832px) {
-   #typografi .column_narrow {
-
-    margin: 1em;
-    padding: 2em;
-    background-color: #282629;
-    margin-bottom: 1em;
-
-}
-}
-@media only screen and (max-width: 1325px) {
-    #typografi .image{
-
-        flex-basis: 625px;
-    }
 
 }
 
+    #OmIsntro{
+        flex-basis: 800px;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    width: 50vw;
+    height: 20vw;
 
 
+    transition: 1s;
+    z-index: 3;
 
-@media only screen and (max-width: 833px) {
-
-     #typografi .image{
-       flex-basis: 200px;
-
-    }
-}
-@media only screen and (max-width: 717px) {
-
-     #typografi .image{
-       flex-basis: 500px;
-
-    }
 }
 
+#OmTsext{
+    flex-basis: 800px;
+    font-size: 1.4em;
+    font-family: sans-serif;
+
+    width: 50vw;
+    height: 20vw;
+
+    transition: 1s;
+    z-index: 3;
+
+}
+
+#OmGalslery{
+    flex-basis: 800px;
+    font-size: 1em;
+    font-family: sans-serif;
+
+    width: 50vw;
+    height: 20vw;
+
+    transition: 1s;
+    z-index: 2;
+
+}
 
 
+    .frontstyle{
+        margin-top: 2em;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: sans-serif;
+
+
+    transition: 1s;
+}
+
+
+}
 
 

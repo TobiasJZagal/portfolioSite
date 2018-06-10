@@ -1,0 +1,7 @@
+$(window).on("load", sidenErLoadet);
+
+function sidenErLoadet() {
+    console.log("klar");
+    $("#hundcontainer").addClass("hundKommerInd");
+    $("#hundcontainer").on("animationend", hundInde);
+}
